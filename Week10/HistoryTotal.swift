@@ -161,6 +161,7 @@ struct HistoryTotal: View {
            
             Spacer()
         }
+        
        
         
         

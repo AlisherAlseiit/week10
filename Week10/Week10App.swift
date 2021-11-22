@@ -11,7 +11,8 @@ import SwiftUI
 struct Week10App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }

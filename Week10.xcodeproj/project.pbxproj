@@ -14,6 +14,12 @@
 		381B2B9F2742BC4800142BC7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381B2B9E2742BC4800142BC7 /* Item.swift */; };
 		381B2BA12742C63100142BC7 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381B2BA02742C63100142BC7 /* BusinessSectionHeader.swift */; };
 		381B2BA32742CDC800142BC7 /* HistoryTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381B2BA22742CDC800142BC7 /* HistoryTotal.swift */; };
+		389FB745274BC5DE005C576A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB744274BC5DE005C576A /* LoginView.swift */; };
+		389FB747274BC698005C576A /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB746274BC698005C576A /* ContentModel.swift */; };
+		389FB74B274BCBC9005C576A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB74A274BCBC9005C576A /* CustomTextField.swift */; };
+		389FB74F274BCF96005C576A /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB74E274BCF96005C576A /* VisualEffectBlur.swift */; };
+		389FB751274BD44A005C576A /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB750274BD44A005C576A /* LaunchView.swift */; };
+		389FB753274BD557005C576A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389FB752274BD557005C576A /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +31,12 @@
 		381B2B9E2742BC4800142BC7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		381B2BA02742C63100142BC7 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		381B2BA22742CDC800142BC7 /* HistoryTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTotal.swift; sourceTree = "<group>"; };
+		389FB744274BC5DE005C576A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		389FB746274BC698005C576A /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		389FB74A274BCBC9005C576A /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		389FB74E274BCF96005C576A /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		389FB750274BD44A005C576A /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		389FB752274BD557005C576A /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				381B2B902742BA3200142BC7 /* Week10App.swift */,
+				389FB744274BC5DE005C576A /* LoginView.swift */,
+				389FB74A274BCBC9005C576A /* CustomTextField.swift */,
 				381B2B922742BA3200142BC7 /* ContentView.swift */,
 				381B2BA02742C63100142BC7 /* BusinessSectionHeader.swift */,
+				389FB752274BD557005C576A /* ProfileView.swift */,
+				389FB74E274BCF96005C576A /* VisualEffectBlur.swift */,
 				381B2B942742BA3500142BC7 /* Assets.xcassets */,
 				381B2B962742BA3500142BC7 /* Preview Content */,
 				381B2B9E2742BC4800142BC7 /* Item.swift */,
 				381B2BA22742CDC800142BC7 /* HistoryTotal.swift */,
+				389FB746274BC698005C576A /* ContentModel.swift */,
+				389FB750274BD44A005C576A /* LaunchView.swift */,
 			);
 			path = Week10;
 			sourceTree = "<group>";
@@ -147,9 +165,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				381B2BA32742CDC800142BC7 /* HistoryTotal.swift in Sources */,
+				389FB751274BD44A005C576A /* LaunchView.swift in Sources */,
+				389FB745274BC5DE005C576A /* LoginView.swift in Sources */,
 				381B2BA12742C63100142BC7 /* BusinessSectionHeader.swift in Sources */,
 				381B2B932742BA3200142BC7 /* ContentView.swift in Sources */,
+				389FB74B274BCBC9005C576A /* CustomTextField.swift in Sources */,
+				389FB74F274BCF96005C576A /* VisualEffectBlur.swift in Sources */,
 				381B2B9F2742BC4800142BC7 /* Item.swift in Sources */,
+				389FB747274BC698005C576A /* ContentModel.swift in Sources */,
+				389FB753274BD557005C576A /* ProfileView.swift in Sources */,
 				381B2B912742BA3200142BC7 /* Week10App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
