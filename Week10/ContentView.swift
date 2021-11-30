@@ -11,11 +11,22 @@ import SwiftUI
 
 struct ContentView: View {
     @State var myItems = items
+    @State var isMapShowing = false
     var body: some View {
         NavigationView {
             
+            if !isMapShowing {
             VStack{
                 Spacer()
+                
+                HStack {
+                    Image(systemName: "location")
+                    Spacer()
+                    Button("Switch to map view") {
+                        self.isMapShowing = true
+                    }
+                }
+                .padding()
                List {
                     Section(header: Text("01.11.2021").foregroundColor(Color.purple)) {
                         
@@ -82,9 +93,40 @@ struct ContentView: View {
                 
                 
             }
+                
             .navigationBarTitle("История")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(leading: Image(systemName: "chevron.left"))
+                
+            } else {
+                ZStack(alignment: .top) {
+                    
+                    // Show Map
+                    BusinessMap()
+                        .ignoresSafeArea()
+                                            
+                    // Rectangle overlay
+                    
+                    ZStack {
+                        
+                        Rectangle()
+                            .foregroundColor(.white)
+                            .cornerRadius(5)
+                            .frame(height: 48)
+                        
+                        HStack {
+                            Image(systemName: "location")
+                            
+                            Spacer()
+                            Button("Switch to list view") {
+                                self.isMapShowing = false
+                            }
+                        }
+                        .padding()
+                    }
+                    .padding()
+                }
+            }
         }
     }
 }
